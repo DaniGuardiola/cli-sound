@@ -24,13 +24,13 @@ const player = new Player();
 await player.play("path/to/sound.mp3");
 ```
 
-## <a name='Content'></a>Content
+## <a name='Contents'></a>Contents
 
 <!-- vscode-markdown-toc -->
 
 - [Install](#install)
 - [Example](#example)
-- [Content](#content)
+- [Contents](#contents)
 - [How it works](#how-it-works)
 - [Usage](#usage)
   - [Creating the player](#creating-the-player)
