@@ -35,7 +35,6 @@ async function main() {
     const player = new Player({ volume });
 
     try {
-      console.log(`Playing ${filePath}`);
       await player.play(absoluteFilePath);
     } catch (error) {
       console.error("There was an error playing the file:");
