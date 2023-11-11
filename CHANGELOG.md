@@ -1,5 +1,11 @@
 # cli-sound
 
+## 1.1.0
+
+### Minor Changes
+
+- 6c2cba0: Added `cli-sound` binary to execute it from the terminal.
+
 ## 1.0.0
 
 ### Major Changes
