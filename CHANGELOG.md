@@ -1,5 +1,11 @@
 # cli-sound
 
+## 1.1.1
+
+### Patch Changes
+
+- 6829407: Fix binary missing node shebang
+
 ## 1.1.0
 
 ### Minor Changes
