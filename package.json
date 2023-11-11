@@ -15,7 +15,8 @@
   "scripts": {
     "prepare": "tshy",
     "publish": "changeset publish",
-    "test": "tsx test/index.ts"
+    "test": "tsx test/index.ts",
+    "cli": "tsx src/cli.ts"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
@@ -31,6 +32,9 @@
     "tshy": "^1.8.0",
     "tsx": "^4.1.0",
     "typescript": "^5.2.2"
+  },
+  "bin": {
+    "cli-sound": "./dist/esm/cli.js"
   },
   "tshy": {
     "exports": {
