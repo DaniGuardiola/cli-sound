@@ -1,5 +1,11 @@
 # cli-sound
 
+## 1.1.2
+
+### Patch Changes
+
+- ada7c2b: Fix useless log in binary
+
 ## 1.1.1
 
 ### Patch Changes
