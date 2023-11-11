@@ -4,9 +4,19 @@
 
 A simple utility to play sounds from Node.js programs, useful for (but not limited to) CLI apps.
 
-It works by executing a locally installed program without displaying a graphical interface.
+It can also be used directly as a terminal command:
 
-This package is inspired by [play-sound](https://github.com/shime/play-sound), but it goes to greater lengths to ensure good cross-operative-system support, provide volume control, customization, TypeScript types, ESM and CommonJS compatibility, and overall better reliability.
+```sh
+npm i -g cli-sound
+cli-sound path/to/sound.mp3
+
+# or
+npx cli-sound path/to/sound.mp3
+```
+
+It works by executing a locally installed audio program without a graphical interface.
+
+This package is inspired by [play-sound](https://github.com/shime/play-sound), but it goes to greater lengths to ensure good cross-operative-system support, provide volume control, customization, TypeScript types, ESM and CommonJS compatibility, and better reliability overall.
 
 ## <a name='Install'></a>Install
 
@@ -147,9 +157,10 @@ There are two points at which an error can occur:
 - Creating the player (`new Player()`): happens if none of the programs are available.
 - Playing a sound (`player.play()`): happens if the program command fails for some reason, including but not limited to the file not existing or being in the wrong format.
 
-If playing the sound is not a critical feature, it is recommended to wrap the code in a try/catch block.
+If succeeding in playing the sound is not critical, you can wrap the code in a try/catch block to prevent the failure from crashing your app.
 
-Note that, since the package doesn't have a lot of control over the spawned programs, the program may fail silently or behave in unexpected ways.
+> [!WARNING]
+> Note that, since the package doesn't have a lot of control over the spawned programs, they may fail silently or behave in unexpected ways.
 
 ## <a name='Inspectingthecommand'></a>Inspecting the command
 
