@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import path from "node:path";
 
 import { Player } from "./player.js";
