@@ -1,6 +1,6 @@
 {
   "name": "cli-sound",
-  "description": "Play a dounf from your CLI app",
+  "description": "Play a sound from your CLI app",
   "version": "1.1.2",
   "author": {
     "email": "hi@daniguardio.la",
