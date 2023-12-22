@@ -1,5 +1,11 @@
 # cli-sound
 
+## 1.1.3
+
+### Patch Changes
+
+- a41a2b9: Fix package description lol.
+
 ## 1.1.2
 
 ### Patch Changes
